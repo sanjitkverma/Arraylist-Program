@@ -16,7 +16,7 @@ public class Main extends Application {
         alert.setTitle("Shuffled Card Output");
         alert.setHeaderText("Sorted Card Generate");
         alert.setResizable(true);
-        alert.getDialogPane().setPrefSize(750,340);
+        alert.getDialogPane().setPrefSize(900,340);
         alert.setContentText(deck.toString());
         alert.showAndWait();
     }

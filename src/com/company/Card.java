@@ -23,7 +23,7 @@ public Card(Color color, String value) {
         this.value = value;
     }
     public String toString() {
-        return "Card [" + getColorName()+" " + "" + value+" " +"]";
+        return "Card [" + getColorName()+" " + "" + value+" " +" ]"+"    " ;
     }
     public int compareTo(Card input) {
         int shuffle = 0;
